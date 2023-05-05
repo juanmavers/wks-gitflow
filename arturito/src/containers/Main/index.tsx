@@ -38,7 +38,7 @@ const MainContainer = () => {
 
         <Route path={paths.people.href}>
           <div className="p-3">
-           <People />
+            <People />
           </div>
         </Route>
 
