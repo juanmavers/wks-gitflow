@@ -16,7 +16,7 @@ const columns = [
     render: (birth_year: string) =>
       parseInt(birth_year)
         ? parseInt(birth_year).toLocaleString('es-AR')
-        : birth_year ,
+        : birth_year,
   },
   {
     title: 'Height',
@@ -27,8 +27,8 @@ const columns = [
         ? (parseInt(height) / 100).toLocaleString('es-AR', {
             minimumFractionDigits: 2,
             maximumFractionDigits: 2,
-          }) + " mts"
-        : height + " mts",
+          }) + ' mts'
+        : height + ' mts',
   },
   {
     title: 'Films',
