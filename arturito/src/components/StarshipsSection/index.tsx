@@ -35,7 +35,7 @@ const columns = [
     render: (films: string[]) => films.length,
   },
 ];
-
+// UN CAMBIO
 const Starships = () => {
   const { data, error } = useSWR('/starships', swGet);
 
